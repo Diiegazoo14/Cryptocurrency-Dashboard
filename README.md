@@ -63,7 +63,7 @@ Importante mencionar que al estar trabajando con dash debemos inicializar el app
 ```
 app = dash.Dash(__name__)
 app.title = "Cryptopairs Dashboard"
-
+```
 
 ## Descarga de Datos y Manipulación de los mismos
 
