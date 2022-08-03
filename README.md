@@ -11,7 +11,6 @@ Para la creación del entorno virtual se utilizó el mecanismo del PIPENV. Se se
 
 Al crear el entorno virtual, se generó un entorno virtual Scripts-nzQ5rH0T, donde el interprete se encuentra dentro. Para lograr ejecutar el proyecto dentro el entorno es de suma importancia poner el interprete al python.exe que se encuentra dentro de esta carpeta, como se muestra a continuación:
 
-![image.png](attachment:image.png)
 ![Alt text](venv.png "Title")
 
 Importante, puesto que el proyecto se realizó en un entorno virtual, las librerias se encuentran instaladas dentro del mismo. Por esta razón si se desea correr este proyecto fuera del mismo deben instalarse cada librería libreria previamente, por medio del comando 
@@ -173,7 +172,7 @@ def calculo_VWAP(data_frame_manip):
 
 Esta última función en cuestión calcula el indicador de "trading" VWAP, el cual corresponde al precio ponderado por volumen de transacciones. Dado que se necesita realizar un acumulado, se realizan estas operaciones en un bucle, acumulando valores en listas y por medio de las mismas, realizar las operaciones matemáticas. El bucle, FOR, corre por todas las posiciones del DataFrame para realizar el cálculo y guardar el mismo
 
-![image.png](attachment:image.png)
+![Alt text](VWAP.png "Title")
 
 La imagen anterior muestra la fórmula utilizada para el cálculo, donde el precio utilizado corresponde al mostrado en la columna "vwap" del DataFrame descargado.
 
@@ -236,7 +235,7 @@ El código muestra el layout creado para la aplicación de Dashboard de Cryptomo
 - La columna izquierda, más delgada, consta de dos dropdown, uno que permiten al usuario seleccionar diferentes pares de cryptomonedas a visualizar y otro que permite al usuario seleccionar el intervalo de tiempo entre cada toma de datos de la descarga. El gráfico se actualiza gracias a un callback implementado (se explicará a detalle más adelante)
 - La columna derecha, la más ancha, consta del gráfico principal. Un gráfico de velas que muestra el OHLC para cada uno de los 720 valores descargados, el VWAP Calculado y el Volumen de transacciones para interpretar de mejor manera el VWAP. Se ha implementado un RANGE SLIDER que permite visualizar el grafico a mayor detalle si se redefine la busqueda. 
 
-![image.png](attachment:image.png)
+![Alt text](app.png "Title")
 
 Para lograr el estilo, se creó un archivo llamado style.css dentro de una carpeta de la raiz, llamada assets.
 
