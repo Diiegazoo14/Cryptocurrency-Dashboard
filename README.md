@@ -173,8 +173,6 @@ def calculo_VWAP(data_frame_manip):
 
 Esta última función en cuestión calcula el indicador de "trading" VWAP, el cual corresponde al precio ponderado por volumen de transacciones. Dado que se necesita realizar un acumulado, se realizan estas operaciones en un bucle, acumulando valores en listas y por medio de las mismas, realizar las operaciones matemáticas. El bucle, FOR, corre por todas las posiciones del DataFrame para realizar el cálculo y guardar el mismo
 
-#%% md
-
 ![image.png](attachment:image.png)
 
 La imagen anterior muestra la fórmula utilizada para el cálculo, donde el precio utilizado corresponde al mostrado en la columna "vwap" del DataFrame descargado.
