@@ -12,7 +12,7 @@ Para la creación del entorno virtual se utilizó el mecanismo del PIPENV. Se se
 Al crear el entorno virtual, se generó un entorno virtual Scripts-nzQ5rH0T, donde el interprete se encuentra dentro. Para lograr ejecutar el proyecto dentro el entorno es de suma importancia poner el interprete al python.exe que se encuentra dentro de esta carpeta, como se muestra a continuación:
 
 ![image.png](attachment:image.png)
-
+![Alt text](venv "Title")
 
 Importante, puesto que el proyecto se realizó en un entorno virtual, las librerias se encuentran instaladas dentro del mismo. Por esta razón si se desea correr este proyecto fuera del mismo deben instalarse cada librería libreria previamente, por medio del comando 
 
